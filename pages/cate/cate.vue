@@ -9,14 +9,11 @@
     data() {
       return {
         
-      }
-    },
-    methods: {
-      
+      };
     }
   }
 </script>
 
-<style  lang="scss">
+<style lang="scss">
 
 </style>
