@@ -1,5 +1,6 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+  
 		{
 			"path": "pages/home/home",
 			"style": {
@@ -35,8 +36,19 @@
             }
             
         }
+        
     ],
    
+   "subPackages": [
+   	     {
+   	       "root": "subpkg",
+   	       "pages": [
+   					 {
+   						 "path": "goods_detail/goods_detail"
+   					 }
+   				 ]
+   	     }
+   	   ],
      "tabBar": {
          "selectedColor": "#FF1493",
          "list": [
@@ -67,7 +79,8 @@
          ]
        },
    
-	"globalStyle": {
+
+  "globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "宇哥威武",
 		"navigationBarBackgroundColor": "#FFC0CB",
