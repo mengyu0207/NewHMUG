@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@vant/weapp@^1.10.4":
+  version "1.10.4"
+  resolved "https://registry.npmmirror.com/@vant/weapp/-/weapp-1.10.4.tgz#f6c8cb3f297cdb88b869177f351dc98fe49e6ddb"
+  integrity sha512-S0T6myy4Ve4ZClRujJKP1Eu5hP5GFkVeQH587uakhacrQ+9Fp23gfnmo+dKMf7FbjTRqQu+ehxcr0Ba75iV8HA==
+
 ajv@^6.12.3:
   version "6.12.6"
   resolved "https://registry.npmmirror.com/ajv/-/ajv-6.12.6.tgz#baf5a62e802b07d977034586f8c3baf5adf26df4"

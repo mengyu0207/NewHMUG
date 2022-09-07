@@ -15,3 +15,7 @@ export const getNavList = () => {
 export const getFloorList = () => {
   return fly.get('/home/floordata')
 }
+/*
+ * 获取商品详情数据
+ */
+export const getGoodsDetail = data => fly.get('/goods/detail', data)
